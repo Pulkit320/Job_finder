@@ -2,13 +2,18 @@ name: Autonomous Job Finder Bot
 
 on:
   schedule:
-    # Run every 2 days at midnight UTC
+    # Run automatically every 2 days at 00:00 UTC
     - cron: '0 0 */2 * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   search-and-report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -29,7 +34,7 @@ jobs:
         run: |
           python main.py search
 
-      - name: Commit & Push Updated Job Data & Reports
+      - name: Commit & Push Discovered Jobs & Intelligence Report
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto(jobs): update discovered jobs database & intelligence report [skip ci]"
