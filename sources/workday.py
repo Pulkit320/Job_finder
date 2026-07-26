@@ -1,11 +1,19 @@
 import asyncio
 from typing import List
 from datetime import datetime
-from job_finder.sources.base import BaseSource
-from job_finder.models.job import Job, LegitimacyType
-from job_finder.utils.dates import format_date_iso
-from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
-from job_finder.utils.logger import get_logger
+
+try:
+    from sources.base import BaseSource
+    from models.job import Job, LegitimacyType
+    from utils.dates import format_date_iso
+    from utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.sources.base import BaseSource
+    from job_finder.models.job import Job, LegitimacyType
+    from job_finder.utils.dates import format_date_iso
+    from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -37,7 +45,6 @@ class WorkdaySource(BaseSource):
         for site in WORKDAY_ENDPOINTS:
             try:
                 for kw in keywords[:2]:
-                    # Search specifically for India positions
                     payload = {
                         "appliedFacets": {},
                         "limit": 20,
@@ -54,7 +61,7 @@ class WorkdaySource(BaseSource):
                         location_name = item.get("location", "India")
                         posted_on = item.get("postedOn", "")
 
-                        if not any(k.lower() in title.lower() for k in keywords):
+                        if not any(k.lower() in title.lower() for kw in keywords):
                             continue
 
                         if not filter_internships(title):

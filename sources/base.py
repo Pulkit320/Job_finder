@@ -3,11 +3,15 @@ import random
 from abc import ABC, abstractmethod
 from typing import List, Optional
 import aiohttp
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
-from job_finder.config import AppConfig
-from job_finder.models.job import Job
-from job_finder.utils.logger import get_logger
+try:
+    from config import AppConfig
+    from models.job import Job
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.config import AppConfig
+    from job_finder.models.job import Job
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -15,7 +19,6 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
 ]
 
 class BaseSource(ABC):
@@ -72,5 +75,4 @@ class BaseSource(ABC):
 
     @abstractmethod
     async def search(self, keywords: List[str], locations: List[str]) -> List[Job]:
-        """Search for jobs matching keywords and locations."""
         pass

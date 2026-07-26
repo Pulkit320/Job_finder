@@ -1,10 +1,19 @@
 import asyncio
-from job_finder.config import AppConfig
-from job_finder.services.search import SearchService
-from job_finder.services.verifier import VerifierService
-from job_finder.services.deduplicator import DeduplicatorService
-from job_finder.services.exporter import ExporterService
-from job_finder.utils.logger import get_logger
+
+try:
+    from config import AppConfig
+    from services.search import SearchService
+    from services.verifier import VerifierService
+    from services.deduplicator import DeduplicatorService
+    from services.exporter import ExporterService
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.config import AppConfig
+    from job_finder.services.search import SearchService
+    from job_finder.services.verifier import VerifierService
+    from job_finder.services.deduplicator import DeduplicatorService
+    from job_finder.services.exporter import ExporterService
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -19,19 +28,11 @@ class SchedulerService:
     async def run_pipeline(self) -> dict:
         logger.info("Initializing full Job Finder Bot pipeline execution...")
         
-        # 1. Load existing database
         existing_jobs = self.exporter_service.load_jobs_json()
-        
-        # 2. Perform search
         scraped_jobs = await self.search_service.execute_search()
-        
-        # 3. Perform verification
         verified_jobs = await self.verifier_service.verify_jobs(scraped_jobs)
-        
-        # 4. Perform deduplication
         merged_jobs, new_count = self.deduplicator_service.deduplicate(existing_jobs, verified_jobs)
         
-        # 5. Export to CSV, JSON, Markdown
         self.exporter_service.save_jobs(merged_jobs)
         self.exporter_service.generate_report(merged_jobs, new_count)
 

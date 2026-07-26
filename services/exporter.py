@@ -4,8 +4,12 @@ from typing import List
 from datetime import datetime
 import pandas as pd
 
-from job_finder.models.job import Job
-from job_finder.utils.logger import get_logger
+try:
+    from models.job import Job
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.models.job import Job
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 

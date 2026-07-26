@@ -1,15 +1,22 @@
 import asyncio
 from typing import List
 from datetime import datetime
-from job_finder.sources.base import BaseSource
-from job_finder.models.job import Job, LegitimacyType
-from job_finder.utils.dates import format_date_iso
-from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
-from job_finder.utils.logger import get_logger
+
+try:
+    from sources.base import BaseSource
+    from models.job import Job, LegitimacyType
+    from utils.dates import format_date_iso
+    from utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.sources.base import BaseSource
+    from job_finder.models.job import Job, LegitimacyType
+    from job_finder.utils.dates import format_date_iso
+    from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
-# Popular tech companies with active India engineering offices using Greenhouse
 GREENHOUSE_BOARDS = [
     "razorpay", "swiggy", "meesho", "groww", "browserstack", "cred",
     "thoughtworks", "inmobi", "chargebee", "postman", "sprinklr",
@@ -51,7 +58,6 @@ class GreenhouseSource(BaseSource):
             app_url = item.get("absolute_url", "")
             updated_at = item.get("updated_at", "")
             
-            # Check title against keywords
             title_match = any(kw.lower() in title.lower() for kw in keywords)
             if not title_match:
                 continue

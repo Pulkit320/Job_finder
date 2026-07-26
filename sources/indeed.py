@@ -3,11 +3,19 @@ import urllib.parse
 from typing import List
 from datetime import datetime
 from bs4 import BeautifulSoup
-from job_finder.sources.base import BaseSource
-from job_finder.models.job import Job, LegitimacyType
-from job_finder.utils.dates import format_date_iso
-from job_finder.utils.parser import parse_work_type, parse_experience_level, parse_salary, filter_internships
-from job_finder.utils.logger import get_logger
+
+try:
+    from sources.base import BaseSource
+    from models.job import Job, LegitimacyType
+    from utils.dates import format_date_iso
+    from utils.parser import parse_work_type, parse_experience_level, parse_salary, filter_internships
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.sources.base import BaseSource
+    from job_finder.models.job import Job, LegitimacyType
+    from job_finder.utils.dates import format_date_iso
+    from job_finder.utils.parser import parse_work_type, parse_experience_level, parse_salary, filter_internships
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -19,7 +27,7 @@ class IndeedSource(BaseSource):
         jobs: List[Job] = []
 
         for kw in keywords[:2]:
-            url = f"https://www.indeed.com/jobs?q={urllib.parse.quote(kw)}&fromage=3"  # last 3 days
+            url = f"https://www.indeed.com/jobs?q={urllib.parse.quote(kw)}&fromage=3"
             html = await self.fetch_url(url)
             if not html:
                 logger.warning(f"[{self.source_name}] Request blocked or un-parseable by anti-bot. Failing gracefully.")

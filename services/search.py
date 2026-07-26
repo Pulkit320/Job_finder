@@ -1,12 +1,21 @@
 import asyncio
 import time
 from typing import List
-from job_finder.config import AppConfig
-from job_finder.models.job import Job
-from job_finder.sources import SOURCES_MAP
-from job_finder.utils.dates import is_within_days
-from job_finder.utils.parser import filter_internships, is_india_location, is_entry_level
-from job_finder.utils.logger import get_logger
+
+try:
+    from config import AppConfig
+    from models.job import Job
+    from sources import SOURCES_MAP
+    from utils.dates import is_within_days
+    from utils.parser import filter_internships, is_india_location, is_entry_level
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.config import AppConfig
+    from job_finder.models.job import Job
+    from job_finder.sources import SOURCES_MAP
+    from job_finder.utils.dates import is_within_days
+    from job_finder.utils.parser import filter_internships, is_india_location, is_entry_level
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -46,23 +55,19 @@ class SearchService:
 
         filtered_jobs: List[Job] = []
         for job in raw_jobs:
-            # Rule 1: Posted within posting_age_days (default <= 3 days)
             if not is_within_days(job.posting_date, max_days=self.config.posting_age_days):
                 continue
             pass_date += 1
 
-            # Rule 2: Internship title filter
             if not filter_internships(job.title):
                 continue
             pass_intern += 1
 
-            # Rule 3: India location filter
             if getattr(self.config, "india_only", True):
                 if not is_india_location(job.location, job.description):
                     continue
             pass_india += 1
 
-            # Rule 4: Entry level filter
             if getattr(self.config, "entry_level_only", True):
                 if not is_entry_level(job.title, job.description):
                     continue

@@ -3,11 +3,19 @@ import urllib.parse
 from typing import List
 from datetime import datetime
 from bs4 import BeautifulSoup
-from job_finder.sources.base import BaseSource
-from job_finder.models.job import Job, LegitimacyType
-from job_finder.utils.dates import format_date_iso
-from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
-from job_finder.utils.logger import get_logger
+
+try:
+    from sources.base import BaseSource
+    from models.job import Job, LegitimacyType
+    from utils.dates import format_date_iso
+    from utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.sources.base import BaseSource
+    from job_finder.models.job import Job, LegitimacyType
+    from job_finder.utils.dates import format_date_iso
+    from job_finder.utils.parser import parse_work_type, parse_experience_level, filter_internships
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 

@@ -1,9 +1,15 @@
 import asyncio
 import aiohttp
 from typing import List, Tuple
-from job_finder.config import AppConfig
-from job_finder.models.job import Job, LegitimacyType, VerificationStatus
-from job_finder.utils.logger import get_logger
+
+try:
+    from config import AppConfig
+    from models.job import Job, LegitimacyType, VerificationStatus
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.config import AppConfig
+    from job_finder.models.job import Job, LegitimacyType, VerificationStatus
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 
@@ -29,11 +35,9 @@ class VerifierService:
                 job.legitimacy = LegitimacyType.SUSPICIOUS.value
                 return job
 
-            # Evaluate legitimacy
             legitimacy = self._classify_legitimacy(job)
             job.legitimacy = legitimacy.value if isinstance(legitimacy, LegitimacyType) else legitimacy
 
-            # Description quality check
             desc_len = len(job.description or "")
             suspicious_words = ["crypto scam", "whatsapp only", "send money", "telegram", "wire transfer"]
             is_suspicious_desc = any(sw in (job.description or "").lower() for sw in suspicious_words)
@@ -56,14 +60,12 @@ class VerifierService:
         timeout = aiohttp.ClientTimeout(total=10)
         try:
             async with aiohttp.ClientSession(timeout=timeout) as session:
-                # Try HEAD first
                 try:
                     async with session.head(url, headers=headers, allow_redirects=True) as resp:
                         if resp.status < 400:
                             return True, resp.status
                 except Exception:
                     pass
-                # Fallback GET
                 async with session.get(url, headers=headers, allow_redirects=True) as resp:
                     return resp.status < 400, resp.status
         except Exception as e:
@@ -74,17 +76,14 @@ class VerifierService:
         url_lower = job.application_url.lower()
         src_lower = job.source.lower()
 
-        # Official Company Careers direct links
         if "careers" in src_lower or "official" in src_lower:
             return LegitimacyType.OFFICIAL_CAREERS
         if any(domain in url_lower for domain in ["openai.com", "anthropic.com", "google.com", "microsoft.com", "apple.com", "meta.com", "nvidia.com"]):
             return LegitimacyType.OFFICIAL_CAREERS
 
-        # Major ATS / Job Boards
         if any(ats in url_lower for ats in ["greenhouse.io", "lever.co", "myworkdayjobs.com", "workatastartup.com", "wellfound.com", "ashbyhq.com"]):
             return LegitimacyType.MAJOR_JOB_BOARD
 
-        # Third party aggregators
         if any(agg in url_lower or agg in src_lower for agg in ["linkedin", "indeed", "naukri", "google search", "duckduckgo"]):
             return LegitimacyType.THIRD_PARTY_AGGREGATOR
 

@@ -6,14 +6,21 @@ from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
 from rich.progress import Progress, SpinnerColumn, TextColumn
-from rich.prompt import Prompt, Confirm
 
-from job_finder.config import load_config, save_config, AppConfig
-from job_finder.services.scheduler import SchedulerService
-from job_finder.services.exporter import ExporterService
-from job_finder.services.verifier import VerifierService
-from job_finder.utils.dates import is_within_days
-from job_finder.utils.logger import get_logger
+try:
+    from config import load_config, save_config, AppConfig
+    from services.scheduler import SchedulerService
+    from services.exporter import ExporterService
+    from services.verifier import VerifierService
+    from utils.dates import is_within_days
+    from utils.logger import get_logger
+except ModuleNotFoundError:
+    from job_finder.config import load_config, save_config, AppConfig
+    from job_finder.services.scheduler import SchedulerService
+    from job_finder.services.exporter import ExporterService
+    from job_finder.services.verifier import VerifierService
+    from job_finder.utils.dates import is_within_days
+    from job_finder.utils.logger import get_logger
 
 logger = get_logger()
 console = Console()
@@ -40,7 +47,6 @@ def search():
 
     console.print("\n[bold green]✅ Search Finished Successfully![/bold green]")
     
-    # Display Summary Panel
     panel_text = (
         f"[bold white]Total Database Jobs:[/bold white] [cyan]{results['total_jobs']}[/cyan]\n"
         f"[bold white]New Jobs Discovered:[/bold white] [bold green]+{results['new_jobs']}[/bold green]\n"
@@ -91,7 +97,6 @@ def stats():
 
     console.print(f"\n[bold cyan]📈 Job Finder Bot Statistics (Total: {len(jobs)})[/bold cyan]\n")
 
-    # Table 1: Top Companies
     comp_counts = {}
     source_counts = {}
     loc_counts = {}
@@ -154,10 +159,8 @@ def clean():
         console.print("[yellow]Database is empty.[/yellow]")
         return
 
-    # Filter out expired jobs
     fresh_jobs = [j for j in jobs if is_within_days(j.posting_date, max_days=config.posting_age_days)]
 
-    # Deduplicate remaining
     seen_ids = set()
     cleaned_jobs = []
     for j in fresh_jobs:
