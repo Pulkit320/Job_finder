@@ -1,0 +1,57 @@
+{
+  "keywords": [
+    "Software Engineer",
+    "AI Engineer",
+    "Prompt Engineer",
+    "Machine Learning Engineer",
+    "Applied AI Engineer",
+    "LLM Engineer",
+    "Generative AI Engineer",
+    "AI Developer",
+    "Prompt Developer",
+    "Software Engineer 2027",
+    "AI Engineer 2027",
+    "Graduate Engineer 2027",
+    "2027 Batch"
+  ],
+  "locations": [
+    "India",
+    "Bengaluru",
+    "Bangalore",
+    "Mumbai",
+    "Delhi",
+    "Gurugram",
+    "Gurgaon",
+    "Hyderabad",
+    "Noida",
+    "Pune",
+    "Chennai"
+  ],
+  "countries": [
+    "IN"
+  ],
+  "remote_only": false,
+  "india_only": true,
+  "entry_level_only": true,
+  "target_graduation_year": 2027,
+  "experience_levels": [
+    "Entry Level",
+    "2027 Graduating Batch"
+  ],
+  "posting_age_days": 3,
+  "max_concurrent_requests": 10,
+  "enabled_sources": [
+    "greenhouse",
+    "lever",
+    "workday",
+    "wellfound",
+    "yc",
+    "careers",
+    "google",
+    "linkedin",
+    "indeed",
+    "naukri"
+  ],
+  "fuzzy_threshold": 95.0,
+  "request_timeout_seconds": 20
+}

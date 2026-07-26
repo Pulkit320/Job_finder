@@ -1,0 +1,36 @@
+name: Autonomous Job Finder Bot
+
+on:
+  schedule:
+    # Run automatically every 2 days at 00:00 UTC
+    - cron: '0 0 */2 * *'
+  workflow_dispatch:
+
+jobs:
+  search-and-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run Job Finder Search & Export
+        run: |
+          python main.py search
+
+      - name: Commit & Push Discovered Jobs & Intelligence Report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto(jobs): update discovered jobs database & intelligence report [skip ci]"
+          file_pattern: "data/jobs.json data/jobs.csv data/reports/report.md data/report.md"
