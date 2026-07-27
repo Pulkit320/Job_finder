@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-07-26 18:24:58`
+**Generated At:** `2026-07-27 02:02:41`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `17` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `18` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -19,7 +19,7 @@
 | Source | Count |
 | :--- | :--- |
 | **Workday** | `10` |
-| **Y Combinator Jobs** | `7` |
+| **Y Combinator Jobs** | `8` |
 
 ---
 
@@ -28,7 +28,7 @@
 | Classification | Count |
 | :--- | :--- |
 | **Major Job Board** | `10` |
-| **Suspicious** | `7` |
+| **Suspicious** | `8` |
 
 ---
 
@@ -37,7 +37,7 @@
 | Type | Count |
 | :--- | :--- |
 | **Unknown** | `10` |
-| **Remote** | `7` |
+| **Remote** | `8` |
 
 ---
 
@@ -45,6 +45,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Founding Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92991) |
 | **Remote Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/r/software-engineer) |
 | **Software Engineer Jobs in Los Angeles** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/los-angeles/software-engineer) |
 | **Software Engineer Jobs in New York** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/new-york/software-engineer) |
