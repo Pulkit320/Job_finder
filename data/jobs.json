@@ -16,7 +16,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Software Engineer,  Routing at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "eb87060b17005c38",
@@ -35,7 +36,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Software Engineer, Production Engineering at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "20e062ecdd9934ef",
@@ -54,7 +56,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for System Software Engineer - GPU Profiling at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "517068644f212469",
@@ -73,7 +76,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for System Software Engineer - OpenBMC at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "3f5f7573ff827da5",
@@ -92,7 +96,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for AI Developer Technology Engineer at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "df2c7b92f890af01",
@@ -111,7 +116,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Applied AI Engineer - DFT Methodology at NVIDIA",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "f06cedd6760c016e",
@@ -130,7 +136,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Software Engineer 3 at Adobe",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "96ae7ae80ecb8e81",
@@ -149,7 +156,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Machine Learning Engineer 4 at Adobe",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "f5f8f3bf63e1130f",
@@ -168,7 +176,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Summer 2027 Intern - Software Engineer at Salesforce",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "399438613781c9e9",
@@ -187,7 +196,8 @@
     "Legitimacy": "Major Job Board",
     "Verification Status": "Verified",
     "Description": "Workday listing for Software Engineering PMTS at Salesforce",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "3e4c994539503dbe",
@@ -206,7 +216,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Applied AI Engineer",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "ed72e1a0d4ea0a8a",
@@ -225,7 +236,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Software Engineering Intern",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "5d01a48164224b68",
@@ -244,7 +256,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Software Engineer Jobs",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "edeff7c8be02788d",
@@ -263,7 +276,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Software Engineer Jobs in San Francisco",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "64282c6b10c061d3",
@@ -282,7 +296,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Software Engineer Jobs in New York",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "a904e2a8a1b955c0",
@@ -301,7 +316,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Software Engineer Jobs in Los Angeles",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "039804d7fd8dba9a",
@@ -320,7 +336,8 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Remote Software Engineer Jobs",
-    "Date Discovered": "2026-07-26"
+    "Date Discovered": "2026-07-26",
+    "Logs": "2026-07-26 00:00:00"
   },
   {
     "id": "e365a619661ce512",
@@ -339,6 +356,7 @@
     "Legitimacy": "Suspicious",
     "Verification Status": "Failed",
     "Description": "Y Combinator startup job: Founding Software Engineer",
-    "Date Discovered": "2026-07-27"
+    "Date Discovered": "2026-07-27",
+    "Logs": "2026-07-27 00:00:00"
   }
 ]

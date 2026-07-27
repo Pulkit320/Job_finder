@@ -39,6 +39,7 @@ class Job(BaseModel):
     verification_status: str = Field(default=VerificationStatus.UNVERIFIED.value, alias="Verification Status")
     description: str = Field(default="", alias="Description")
     date_discovered: str = Field(default_factory=lambda: datetime.now().strftime("%Y-%m-%d"), alias="Date Discovered")
+    logs: str = Field(default="", alias="Logs")
 
     class Config:
         populate_by_name = True
@@ -52,6 +53,11 @@ class Job(BaseModel):
             self.posting_date = datetime.now().strftime("%Y-%m-%d")
         if not self.company_career_url and self.application_url:
             self.company_career_url = self.application_url
+        if not self.logs:
+            if self.date_discovered:
+                self.logs = f"{self.date_discovered} 00:00:00"
+            else:
+                self.logs = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     def to_csv_dict(self) -> dict:
         return {
@@ -71,4 +77,5 @@ class Job(BaseModel):
             "Verification Status": self.verification_status,
             "Description": self.description[:500] + "..." if len(self.description) > 500 else self.description,
             "Date Discovered": self.date_discovered,
+            "Logs": self.logs,
         }
