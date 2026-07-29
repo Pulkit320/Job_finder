@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-07-27 16:59:29`
+**Generated At:** `2026-07-29 01:46:35`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `18` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `20` |
+| **New Jobs Added (This Run)** | `2` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -20,6 +20,7 @@
 | :--- | :--- |
 | **Workday** | `10` |
 | **Y Combinator Jobs** | `8` |
+| **Greenhouse** | `2` |
 
 ---
 
@@ -27,8 +28,9 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Major Job Board** | `10` |
+| **Major Job Board** | `11` |
 | **Suspicious** | `8` |
+| **Third-party Aggregator** | `1` |
 
 ---
 
@@ -36,8 +38,9 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Unknown** | `10` |
+| **Unknown** | `11` |
 | **Remote** | `8` |
+| **Onsite** | `1` |
 
 ---
 
@@ -45,6 +48,8 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Software Engineer, Internal Systems** | Stripe | Bengaluru, India | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7543868) |
+| **Software Engineer** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7818501003) |
 | **Founding Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92991) |
 | **Remote Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/r/software-engineer) |
 | **Software Engineer Jobs in Los Angeles** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/los-angeles/software-engineer) |
