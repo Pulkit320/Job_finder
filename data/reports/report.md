@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-08-03 01:56:16`
+**Generated At:** `2026-08-05 01:45:10`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `21` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `22` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -19,7 +19,7 @@
 | Source | Count |
 | :--- | :--- |
 | **Workday** | `10` |
-| **Y Combinator Jobs** | `8` |
+| **Y Combinator Jobs** | `9` |
 | **Greenhouse** | `3` |
 
 ---
@@ -29,7 +29,7 @@
 | Classification | Count |
 | :--- | :--- |
 | **Major Job Board** | `11` |
-| **Suspicious** | `8` |
+| **Suspicious** | `9` |
 | **Third-party Aggregator** | `2` |
 
 ---
@@ -39,7 +39,7 @@
 | Type | Count |
 | :--- | :--- |
 | **Unknown** | `11` |
-| **Remote** | `9` |
+| **Remote** | `10` |
 | **Onsite** | `1` |
 
 ---
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Software Engineering Intern, Fall 2026** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/101759) |
 | **AI Engineer - FDE (Forward Deployed Engineer)** | Databricks | Remote - India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002) |
 | **Software Engineer, Internal Systems** | Stripe | Bengaluru, India | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7543868) |
 | **Software Engineer** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7818501003) |
@@ -67,4 +68,3 @@
 | **AI Developer Technology Engineer** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156) |
 | **System Software Engineer - OpenBMC** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---OpenBMC_JR1999967-1) |
 | **System Software Engineer - GPU Profiling** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/System-Software-Engineer---GPU-Profiling_JR2020625) |
-| **Software Engineer, Production Engineering** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Software-Engineer--Production-Engineering_JR2020074-1) |
