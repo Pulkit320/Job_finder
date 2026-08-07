@@ -438,5 +438,25 @@
     "Description": "Y Combinator startup job: Software Engineering Intern, Fall 2026",
     "Date Discovered": "2026-08-05",
     "Logs": "2026-08-05 00:00:00"
+  },
+  {
+    "id": "5cbd81f6a0dfc139",
+    "Job Title": "Software Engineer, Intern",
+    "Company": "Stripe",
+    "Posting Date": "2026-08-06",
+    "Application Deadline": "Not specified",
+    "Location": "Bengaluru",
+    "Remote / Hybrid / Onsite": "Unknown",
+    "Experience": "Entry Level",
+    "Employment Type": "Full-time",
+    "Salary": "Not specified",
+    "Application Link": "https://stripe.com/jobs/search?gh_jid=8031833",
+    "Company Career Link": "https://boards.greenhouse.io/stripe",
+    "Source": "Greenhouse",
+    "Legitimacy": "Third-party Aggregator",
+    "Verification Status": "Verified",
+    "Description": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Our internship program will provide an opportunity to work on meaningful products that will grow the GDP of the internet. Through the internship, you will work with many systems and technologies, gain experience in systems design and testing, and have opportunities to present your work to your team and the wider org. Each intern has a dedicated intern manager, and every project is part of the team’s roadmap and will directly help Stripe’s mission.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Every internship at Stripe centers around a real, legitimate project that our customers urgently need, touching many parts of our operations and stack. We will support you in shipping it. Yes, you will actually ship it. Some recent projects include rebuilding our statistics aggregation service, building new service discovery systems, and many user facing projects like making it easy to understand error messages on Stripe Checkout. As a Stripe intern, you&#39;ll be tackling important projects to increase global commerce, while working alongside exceptional people who insist on doing their best work. You’ll learn from people with high standards who are great at inspiring others to do more and go further. We value technical and personal growth",
+    "Date Discovered": "2026-08-07",
+    "Logs": "2026-08-07 00:00:00"
   }
 ]
