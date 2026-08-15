@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-08-13 01:11:08`
+**Generated At:** `2026-08-15 00:43:24`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `24` |
+| **Total Jobs in Database** | `25` |
 | **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
@@ -20,7 +20,7 @@
 | :--- | :--- |
 | **Workday** | `10` |
 | **Y Combinator Jobs** | `10` |
-| **Greenhouse** | `4` |
+| **Greenhouse** | `5` |
 
 ---
 
@@ -28,7 +28,7 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Major Job Board** | `11` |
+| **Major Job Board** | `12` |
 | **Suspicious** | `10` |
 | **Third-party Aggregator** | `3` |
 
@@ -40,7 +40,7 @@
 | :--- | :--- |
 | **Unknown** | `12` |
 | **Remote** | `11` |
-| **Onsite** | `1` |
+| **Onsite** | `2` |
 
 ---
 
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
 | **Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94138) |
 | **Software Engineer, Intern** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8031833) |
 | **Software Engineering Intern, Fall 2026** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/101759) |
@@ -67,4 +68,3 @@
 | **Machine Learning Engineer 4** | Adobe | India | Workday | [Apply Here](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Machine-Learning-Engineer-4_R165250) |
 | **Software Engineer 3** | Adobe | India | Workday | [Apply Here](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Software-Engineer-3_R165330-1) |
 | **Applied AI Engineer - DFT Methodology** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Applied-AI-Engineer---DFT-Methodology_JR2017068) |
-| **AI Developer Technology Engineer** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156) |
