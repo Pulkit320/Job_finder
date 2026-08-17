@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-08-15 00:43:24`
+**Generated At:** `2026-08-17 00:43:40`
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `25` |
+| **Total Jobs in Database** | `26` |
 | **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
@@ -18,8 +18,8 @@
 
 | Source | Count |
 | :--- | :--- |
+| **Y Combinator Jobs** | `11` |
 | **Workday** | `10` |
-| **Y Combinator Jobs** | `10` |
 | **Greenhouse** | `5` |
 
 ---
@@ -29,7 +29,7 @@
 | Classification | Count |
 | :--- | :--- |
 | **Major Job Board** | `12` |
-| **Suspicious** | `10` |
+| **Suspicious** | `11` |
 | **Third-party Aggregator** | `3` |
 
 ---
@@ -39,7 +39,7 @@
 | Type | Count |
 | :--- | :--- |
 | **Unknown** | `12` |
-| **Remote** | `11` |
+| **Remote** | `12` |
 | **Onsite** | `2` |
 
 ---
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Founding Full Stack AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/95289) |
 | **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
 | **Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94138) |
 | **Software Engineer, Intern** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8031833) |
@@ -67,4 +68,3 @@
 | **Summer 2027 Intern - Software Engineer** | Salesforce | India | Workday | [Apply Here](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
 | **Machine Learning Engineer 4** | Adobe | India | Workday | [Apply Here](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Machine-Learning-Engineer-4_R165250) |
 | **Software Engineer 3** | Adobe | India | Workday | [Apply Here](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/Software-Engineer-3_R165330-1) |
-| **Applied AI Engineer - DFT Methodology** | NVIDIA | India | Workday | [Apply Here](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Applied-AI-Engineer---DFT-Methodology_JR2017068) |
