@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-08-25 00:44:03`
+**Generated At:** `2026-08-27 05:52:21`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `27` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `28` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,7 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `12` |
+| **Y Combinator Jobs** | `13` |
 | **Workday** | `10` |
 | **Greenhouse** | `5` |
 
@@ -28,8 +28,8 @@
 
 | Classification | Count |
 | :--- | :--- |
+| **Suspicious** | `13` |
 | **Major Job Board** | `12` |
-| **Suspicious** | `12` |
 | **Third-party Aggregator** | `3` |
 
 ---
@@ -38,7 +38,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `13` |
+| **Remote** | `14` |
 | **Unknown** | `12` |
 | **Onsite** | `2` |
 
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **AI Engineer (interested in physical infrastructure)** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/105565) |
 | **Founding Software Engineer, Robotics Infrastructure** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/102289) |
 | **Founding Full Stack AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/95289) |
 | **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
@@ -67,4 +68,3 @@
 | **Applied AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/99248) |
 | **Software Engineering PMTS** | Salesforce | India | Workday | [Apply Here](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Software-Engineering-PMTS_JR351648) |
 | **Summer 2027 Intern - Software Engineer** | Salesforce | India | Workday | [Apply Here](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715) |
-| **Machine Learning Engineer 4** | Adobe | India | Workday | [Apply Here](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Noida/Machine-Learning-Engineer-4_R165250) |
