@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-09-13 02:11:46`
+**Generated At:** `2026-09-15 02:33:55`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `31` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `32` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,7 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `16` |
+| **Y Combinator Jobs** | `17` |
 | **Workday** | `10` |
 | **Greenhouse** | `5` |
 
@@ -28,7 +28,7 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `16` |
+| **Suspicious** | `17` |
 | **Major Job Board** | `12` |
 | **Third-party Aggregator** | `3` |
 
@@ -38,7 +38,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `17` |
+| **Remote** | `18` |
 | **Unknown** | `12` |
 | **Onsite** | `2` |
 
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Founding AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92791) |
 | **Software Engineer - Backend** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/13302) |
 | **Full Stack Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/30657) |
 | **Founding Machine Learning Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/107082) |
@@ -67,4 +68,3 @@
 | **Software Engineer Jobs in New York** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/new-york/software-engineer) |
 | **Software Engineer Jobs in San Francisco** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/san-francisco/software-engineer) |
 | **Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/l/software-engineer) |
-| **Software Engineering Intern** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94623) |
