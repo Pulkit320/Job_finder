@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-09-21 02:27:32`
+**Generated At:** `2026-09-23 02:30:49`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `32` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `34` |
+| **New Jobs Added (This Run)** | `2` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -20,7 +20,7 @@
 | :--- | :--- |
 | **Y Combinator Jobs** | `17` |
 | **Workday** | `10` |
-| **Greenhouse** | `5` |
+| **Greenhouse** | `7` |
 
 ---
 
@@ -30,7 +30,7 @@
 | :--- | :--- |
 | **Suspicious** | `17` |
 | **Major Job Board** | `12` |
-| **Third-party Aggregator** | `3` |
+| **Third-party Aggregator** | `5` |
 
 ---
 
@@ -39,7 +39,7 @@
 | Type | Count |
 | :--- | :--- |
 | **Remote** | `18` |
-| **Unknown** | `12` |
+| **Unknown** | `14` |
 | **Onsite** | `2` |
 
 ---
@@ -48,6 +48,8 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Software Engineer, Stripe Data Pipeline** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8209970) |
+| **Software Engineer, Core Technology** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7618977) |
 | **Founding AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92791) |
 | **Software Engineer - Backend** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/13302) |
 | **Full Stack Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/30657) |
@@ -66,5 +68,3 @@
 | **Remote Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/r/software-engineer) |
 | **Software Engineer Jobs in Los Angeles** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/los-angeles/software-engineer) |
 | **Software Engineer Jobs in New York** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/new-york/software-engineer) |
-| **Software Engineer Jobs in San Francisco** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/san-francisco/software-engineer) |
-| **Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/l/software-engineer) |
