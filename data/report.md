@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-09-25 02:36:56`
+**Generated At:** `2026-09-27 02:37:52`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `34` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `36` |
+| **New Jobs Added (This Run)** | `2` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,7 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `17` |
+| **Y Combinator Jobs** | `19` |
 | **Workday** | `10` |
 | **Greenhouse** | `7` |
 
@@ -28,7 +28,7 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `17` |
+| **Suspicious** | `19` |
 | **Major Job Board** | `12` |
 | **Third-party Aggregator** | `5` |
 
@@ -38,7 +38,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `18` |
+| **Remote** | `20` |
 | **Unknown** | `14` |
 | **Onsite** | `2` |
 
@@ -48,6 +48,8 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **LemonLimeFully automated GTM for small businessAI EngineerFull-time · San Francisco, CA, US · $100K - $120K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94768) |
+| **COACHThe AI Coach for in person sales reps.Founding AI EngineerFull-time · San Francisco, CA, US · $150K - $250K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111820) |
 | **Software Engineer, Stripe Data Pipeline** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8209970) |
 | **Software Engineer, Core Technology** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7618977) |
 | **Founding AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92791) |
@@ -66,5 +68,3 @@
 | **Software Engineer** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7818501003) |
 | **Founding Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92991) |
 | **Remote Software Engineer Jobs** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/r/software-engineer) |
-| **Software Engineer Jobs in Los Angeles** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/los-angeles/software-engineer) |
-| **Software Engineer Jobs in New York** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/new-york/software-engineer) |
