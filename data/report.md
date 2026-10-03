@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-10-01 03:12:42`
+**Generated At:** `2026-10-03 03:00:01`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `38` |
-| **New Jobs Added (This Run)** | `2` |
+| **Total Jobs in Database** | `39` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,7 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `20` |
+| **Y Combinator Jobs** | `21` |
 | **Workday** | `10` |
 | **Greenhouse** | `8` |
 
@@ -28,7 +28,7 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `20` |
+| **Suspicious** | `21` |
 | **Major Job Board** | `12` |
 | **Third-party Aggregator** | `6` |
 
@@ -38,7 +38,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `21` |
+| **Remote** | `22` |
 | **Unknown** | `14` |
 | **Onsite** | `3` |
 
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **RationalFirst Zero-human Accounting FirmSoftware Engineering InternInternship · San Francisco, CA, US · $8K - $12K / monthly** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/106942) |
 | **Luca IQAPI-first tax engine for CPA firms and developersAI EngineerFull-time · Chicago, IL, US · $150K - $200K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/110614) |
 | **IT Software Engineer, Infrastructure** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002) |
 | **LemonLimeFully automated GTM for small businessAI EngineerFull-time · San Francisco, CA, US · $100K - $120K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94768) |
@@ -67,4 +68,3 @@
 | **Software Engineering Intern, Fall 2026** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/101759) |
 | **AI Engineer - FDE (Forward Deployed Engineer)** | Databricks | Remote - India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002) |
 | **Software Engineer, Internal Systems** | Stripe | Bengaluru, India | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7543868) |
-| **Software Engineer** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7818501003) |
