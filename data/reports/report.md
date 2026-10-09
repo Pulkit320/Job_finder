@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-10-07 03:25:17`
+**Generated At:** `2026-10-09 03:45:25`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `40` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `42` |
+| **New Jobs Added (This Run)** | `2` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,9 +18,9 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `22` |
+| **Y Combinator Jobs** | `23` |
 | **Workday** | `10` |
-| **Greenhouse** | `8` |
+| **Greenhouse** | `9` |
 
 ---
 
@@ -28,9 +28,9 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `22` |
+| **Suspicious** | `23` |
 | **Major Job Board** | `12` |
-| **Third-party Aggregator** | `6` |
+| **Third-party Aggregator** | `7` |
 
 ---
 
@@ -38,7 +38,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `23` |
+| **Remote** | `25` |
 | **Unknown** | `14` |
 | **Onsite** | `3` |
 
@@ -48,6 +48,8 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Volaren Inc.Volaren collapses the hedge fund model and making it accessible to…Software EngineerFull-time · San Francisco, CA, US / Remote (US) · $50K - $150K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111785) |
+| **Software Engineer (Backend - SDE 2)** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002) |
 | **EdgerunMilitary exoskeletonsSoftware EngineerFull-time · Palo Alto, CA, US · $150 - $200** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/109350) |
 | **RationalFirst Zero-human Accounting FirmSoftware Engineering InternInternship · San Francisco, CA, US · $8K - $12K / monthly** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/106942) |
 | **Luca IQAPI-first tax engine for CPA firms and developersAI EngineerFull-time · Chicago, IL, US · $150K - $200K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/110614) |
@@ -66,5 +68,3 @@
 | **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
 | **Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94138) |
 | **Software Engineer, Intern** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8031833) |
-| **Software Engineering Intern, Fall 2026** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/101759) |
-| **AI Engineer - FDE (Forward Deployed Engineer)** | Databricks | Remote - India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002) |
