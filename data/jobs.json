@@ -838,5 +838,25 @@
     "Description": "Y Combinator startup job: Volaren Inc.Volaren collapses the hedge fund model and making it accessible to…Software EngineerFull-time · San Francisco, CA, US / Remote (US) · $50K - $150K",
     "Date Discovered": "2026-10-09",
     "Logs": "2026-10-09 00:00:00"
+  },
+  {
+    "id": "d9854f8782459ec2",
+    "Job Title": "Software Engineer, Payin",
+    "Company": "Stripe",
+    "Posting Date": "2026-10-20",
+    "Application Deadline": "Not specified",
+    "Location": "Bengaluru",
+    "Remote / Hybrid / Onsite": "Onsite",
+    "Experience": "Senior Level",
+    "Employment Type": "Full-time",
+    "Salary": "Not specified",
+    "Application Link": "https://stripe.com/jobs/search?gh_jid=8185012",
+    "Company Career Link": "https://boards.greenhouse.io/stripe",
+    "Source": "Greenhouse",
+    "Legitimacy": "Third-party Aggregator",
+    "Verification Status": "Verified",
+    "Description": "&lt;h2&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue and accelerate new business opportunities. Our mission is to increase the GDP of the internet and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the Organization&amp;nbsp;&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Payments is at the core of Stripe’s mission to increase the GDP of the internet. We are expanding our payments footprint in India and we are looking for Backend Engineers to own the technical architecture behind our next generation of payment offerings in India.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As part of the India Payments team, you will build on top of Stripe’s robust foundational platforms, driving complex integrations and contributing to the architectural evolution of the critical services that handle money movement every millisecond. You will engineer the entire horizontal payments stack, driving every phase of a transaction&#39;s journey: integrating with local payment rails, managing initiation and intelligent routing, ensuring reliable completion and automating reconciliation and payouts.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Partnering with cross-functional engineering hubs globally, you will tackle high-stakes technical challenges requiring low-latency execution, strict transactional idempotency, zero-downtime migrations and resilient distributed state management at scale.&lt;/p&gt;\n&lt;p&gt;If you thrive on taking ambiguous product mandates and turning them into fault-tolerant, self-healing distributed systems, you will feel right at home here.&",
+    "Date Discovered": "2026-10-21",
+    "Logs": "2026-10-21 00:00:00"
   }
 ]

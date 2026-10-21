@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-10-19 02:29:30`
+**Generated At:** `2026-10-21 02:36:27`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `42` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `43` |
+| **New Jobs Added (This Run)** | `1` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -20,7 +20,7 @@
 | :--- | :--- |
 | **Y Combinator Jobs** | `23` |
 | **Workday** | `10` |
-| **Greenhouse** | `9` |
+| **Greenhouse** | `10` |
 
 ---
 
@@ -30,7 +30,7 @@
 | :--- | :--- |
 | **Suspicious** | `23` |
 | **Major Job Board** | `12` |
-| **Third-party Aggregator** | `7` |
+| **Third-party Aggregator** | `8` |
 
 ---
 
@@ -40,7 +40,7 @@
 | :--- | :--- |
 | **Remote** | `25` |
 | **Unknown** | `14` |
-| **Onsite** | `3` |
+| **Onsite** | `4` |
 
 ---
 
@@ -48,6 +48,7 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Software Engineer, Payin** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8185012) |
 | **Volaren Inc.Volaren collapses the hedge fund model and making it accessible to…Software EngineerFull-time · San Francisco, CA, US / Remote (US) · $50K - $150K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111785) |
 | **Software Engineer (Backend - SDE 2)** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002) |
 | **EdgerunMilitary exoskeletonsSoftware EngineerFull-time · Palo Alto, CA, US · $150 - $200** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/109350) |
@@ -67,4 +68,3 @@
 | **Founding Full Stack AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/95289) |
 | **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
 | **Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94138) |
-| **Software Engineer, Intern** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8031833) |
