@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-10-27 02:59:33`
+**Generated At:** `2026-10-29 03:36:02`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `43` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `45` |
+| **New Jobs Added (This Run)** | `2` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,9 +18,9 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `23` |
+| **Y Combinator Jobs** | `24` |
+| **Greenhouse** | `11` |
 | **Workday** | `10` |
-| **Greenhouse** | `10` |
 
 ---
 
@@ -28,9 +28,9 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `23` |
+| **Suspicious** | `24` |
 | **Major Job Board** | `12` |
-| **Third-party Aggregator** | `8` |
+| **Third-party Aggregator** | `9` |
 
 ---
 
@@ -38,8 +38,8 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `25` |
-| **Unknown** | `14` |
+| **Remote** | `26` |
+| **Unknown** | `15` |
 | **Onsite** | `4` |
 
 ---
@@ -48,6 +48,8 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **HuscarlAutonomous AI actuary for corporate insuranceFounding AI engineer - ParisFull-time · Paris, IDF, FR / Paris, Île-de-France, FR · €60K - €90K EUR** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/118979) |
+| **Software Engineer, New Grad** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8130876) |
 | **Software Engineer, Payin** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8185012) |
 | **Volaren Inc.Volaren collapses the hedge fund model and making it accessible to…Software EngineerFull-time · San Francisco, CA, US / Remote (US) · $50K - $150K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111785) |
 | **Software Engineer (Backend - SDE 2)** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002) |
@@ -66,5 +68,3 @@
 | **AI Engineer (interested in physical infrastructure)** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/105565) |
 | **Founding Software Engineer, Robotics Infrastructure** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/102289) |
 | **Founding Full Stack AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/95289) |
-| **Software Engineer (Fullstack), Collections** | Postman | Bengaluru, Karnataka, India | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/postman/jobs/7858498003) |
-| **Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94138) |
