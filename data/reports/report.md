@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-11-01 03:22:39`
+**Generated At:** `2026-11-03 04:40:30`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `45` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `48` |
+| **New Jobs Added (This Run)** | `3` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,8 +18,8 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `24` |
-| **Greenhouse** | `11` |
+| **Y Combinator Jobs** | `25` |
+| **Greenhouse** | `13` |
 | **Workday** | `10` |
 
 ---
@@ -28,9 +28,9 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `24` |
-| **Major Job Board** | `12` |
-| **Third-party Aggregator** | `9` |
+| **Suspicious** | `25` |
+| **Major Job Board** | `13` |
+| **Third-party Aggregator** | `10` |
 
 ---
 
@@ -38,8 +38,8 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `26` |
-| **Unknown** | `15` |
+| **Remote** | `28` |
+| **Unknown** | `16` |
 | **Onsite** | `4` |
 
 ---
@@ -48,6 +48,9 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **BrumbyRobot Cowboys that Herd Cattle with AI DronesSoftware EngineerFull-time · Sydney** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/119911) |
+| **Evergreen - AI Engineer, AI FDE** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002) |
+| **Machine Learning Engineer II - Backend** | Inmobi | Bengaluru | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/inmobi/jobs/6898755) |
 | **HuscarlAutonomous AI actuary for corporate insuranceFounding AI engineer - ParisFull-time · Paris, IDF, FR / Paris, Île-de-France, FR · €60K - €90K EUR** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/118979) |
 | **Software Engineer, New Grad** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8130876) |
 | **Software Engineer, Payin** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8185012) |
@@ -65,6 +68,3 @@
 | **Software Engineer - Backend** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/13302) |
 | **Full Stack Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/30657) |
 | **Founding Machine Learning Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/107082) |
-| **AI Engineer (interested in physical infrastructure)** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/105565) |
-| **Founding Software Engineer, Robotics Infrastructure** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/102289) |
-| **Founding Full Stack AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/95289) |
