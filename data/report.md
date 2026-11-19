@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-11-17 05:48:02`
+**Generated At:** `2026-11-19 05:07:45`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `48` |
-| **New Jobs Added (This Run)** | `0` |
+| **Total Jobs in Database** | `73` |
+| **New Jobs Added (This Run)** | `25` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,8 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Y Combinator Jobs** | `25` |
+| **Y Combinator Jobs** | `26` |
+| **Wellfound** | `24` |
 | **Greenhouse** | `13` |
 | **Workday** | `10` |
 
@@ -28,8 +29,8 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Suspicious** | `25` |
-| **Major Job Board** | `13` |
+| **Major Job Board** | `37` |
+| **Suspicious** | `26` |
 | **Third-party Aggregator** | `10` |
 
 ---
@@ -38,8 +39,8 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Remote** | `28` |
-| **Unknown** | `16` |
+| **Unknown** | `39` |
+| **Remote** | `30` |
 | **Onsite** | `4` |
 
 ---
@@ -48,23 +49,23 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **BrumbyRobot Cowboys that Herd Cattle with AI DronesSoftware EngineerFull-time · Sydney** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/119911) |
-| **Evergreen - AI Engineer, AI FDE** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8878946002) |
-| **Machine Learning Engineer II - Backend** | Inmobi | Bengaluru | Greenhouse | [Apply Here](https://job-boards.greenhouse.io/inmobi/jobs/6898755) |
-| **HuscarlAutonomous AI actuary for corporate insuranceFounding AI engineer - ParisFull-time · Paris, IDF, FR / Paris, Île-de-France, FR · €60K - €90K EUR** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/118979) |
-| **Software Engineer, New Grad** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8130876) |
-| **Software Engineer, Payin** | Stripe | Bengaluru | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8185012) |
-| **Volaren Inc.Volaren collapses the hedge fund model and making it accessible to…Software EngineerFull-time · San Francisco, CA, US / Remote (US) · $50K - $150K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111785) |
-| **Software Engineer (Backend - SDE 2)** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002) |
-| **EdgerunMilitary exoskeletonsSoftware EngineerFull-time · Palo Alto, CA, US · $150 - $200** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/109350) |
-| **RationalFirst Zero-human Accounting FirmSoftware Engineering InternInternship · San Francisco, CA, US · $8K - $12K / monthly** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/106942) |
-| **Luca IQAPI-first tax engine for CPA firms and developersAI EngineerFull-time · Chicago, IL, US · $150K - $200K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/110614) |
-| **IT Software Engineer, Infrastructure** | Databricks | Bengaluru, India | Greenhouse | [Apply Here](https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002) |
-| **LemonLimeFully automated GTM for small businessAI EngineerFull-time · San Francisco, CA, US · $100K - $120K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/94768) |
-| **COACHThe AI Coach for in person sales reps.Founding AI EngineerFull-time · San Francisco, CA, US · $150K - $250K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/111820) |
-| **Software Engineer, Stripe Data Pipeline** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=8209970) |
-| **Software Engineer, Core Technology** | Stripe | Bangalore | Greenhouse | [Apply Here](https://stripe.com/jobs/search?gh_jid=7618977) |
-| **Founding AI Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/92791) |
-| **Software Engineer - Backend** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/13302) |
-| **Full Stack Software Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/30657) |
-| **Founding Machine Learning Engineer** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/107082) |
+| **NeuromorphicBuilding robots to automate wetlabsRobotics Software EngineerFull-time · San Francisco, CA · $150K - $200K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/123107) |
+| **Machine Learning Engineer II- ML Systems, Models and Analysis** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4701959-machine-learning-engineer-ii-ml-systems-models-and-analysis) |
+| **Machine Learning Engineer (Voice AI)** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4203466-machine-learning-engineer-voice-ai) |
+| **Machine Learning Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/3650842-machine-learning-engineer) |
+| **Software Engineer in India** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/india) |
+| **AI Engineer - II** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4901331-ai-engineer-ii) |
+| **Junior AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4562447-junior-ai-engineer) |
+| **Applied AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4903412-applied-ai-engineer) |
+| **Systems AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4901518-systems-ai-engineer) |
+| **Founding AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4872307-founding-ai-engineer) |
+| **AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5062654-ai-engineer) |
+| **Software Engineer Jobs in Los Angeles** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/los-angeles) |
+| **Software Engineer Jobs in New York City** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/new-york) |
+| **Software Engineer Jobs in San Francisco** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/san-francisco) |
+| **Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/software-engineer) |
+| **Remote Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/r/software-engineer) |
+| **Junior Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/job-collections/junior-software-engineer-jobs) |
+| **Machine Learning Engineer in India** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/machine-learning-engineer/india) |
+| **Embedded Software Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4867012-embedded-software-engineer) |
+| **System Software Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4632634-system-software-engineer) |
