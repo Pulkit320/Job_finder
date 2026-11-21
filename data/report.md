@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-11-19 05:07:45`
+**Generated At:** `2026-11-21 04:51:57`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `73` |
-| **New Jobs Added (This Run)** | `25` |
+| **Total Jobs in Database** | `77` |
+| **New Jobs Added (This Run)** | `4` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,8 +18,8 @@
 
 | Source | Count |
 | :--- | :--- |
+| **Wellfound** | `28` |
 | **Y Combinator Jobs** | `26` |
-| **Wellfound** | `24` |
 | **Greenhouse** | `13` |
 | **Workday** | `10` |
 
@@ -29,7 +29,7 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Major Job Board** | `37` |
+| **Major Job Board** | `41` |
 | **Suspicious** | `26` |
 | **Third-party Aggregator** | `10` |
 
@@ -39,7 +39,7 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Unknown** | `39` |
+| **Unknown** | `43` |
 | **Remote** | `30` |
 | **Onsite** | `4` |
 
@@ -49,6 +49,10 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Voice AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4824688-voice-ai-engineer) |
+| **Full Stack AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5105659-full-stack-ai-engineer) |
+| **AI Engineer, Enterprise AI Development – Chennai** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5086190-ai-engineer-enterprise-ai-development-chennai) |
+| **Software Engineer - Backend** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4844774-software-engineer-backend) |
 | **NeuromorphicBuilding robots to automate wetlabsRobotics Software EngineerFull-time · San Francisco, CA · $150K - $200K** | YC Startup | India / Remote | Y Combinator Jobs | [Apply Here](https://www.workatastartup.com/jobs/123107) |
 | **Machine Learning Engineer II- ML Systems, Models and Analysis** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4701959-machine-learning-engineer-ii-ml-systems-models-and-analysis) |
 | **Machine Learning Engineer (Voice AI)** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4203466-machine-learning-engineer-voice-ai) |
@@ -65,7 +69,3 @@
 | **Software Engineer Jobs in San Francisco** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/san-francisco) |
 | **Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/software-engineer) |
 | **Remote Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/r/software-engineer) |
-| **Junior Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/job-collections/junior-software-engineer-jobs) |
-| **Machine Learning Engineer in India** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/machine-learning-engineer/india) |
-| **Embedded Software Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4867012-embedded-software-engineer) |
-| **System Software Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4632634-system-software-engineer) |
