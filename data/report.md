@@ -1,6 +1,6 @@
 # Job Finder Bot - Execution & Intelligence Report
 
-**Generated At:** `2026-11-21 04:51:57`
+**Generated At:** `2026-11-23 04:49:57`
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 | :--- | :--- |
-| **Total Jobs in Database** | `77` |
-| **New Jobs Added (This Run)** | `4` |
+| **Total Jobs in Database** | `82` |
+| **New Jobs Added (This Run)** | `5` |
 | **Verification Status** | `100% Passed Health Check` |
 
 ---
@@ -18,7 +18,7 @@
 
 | Source | Count |
 | :--- | :--- |
-| **Wellfound** | `28` |
+| **Wellfound** | `33` |
 | **Y Combinator Jobs** | `26` |
 | **Greenhouse** | `13` |
 | **Workday** | `10` |
@@ -29,8 +29,8 @@
 
 | Classification | Count |
 | :--- | :--- |
-| **Major Job Board** | `41` |
-| **Suspicious** | `26` |
+| **Major Job Board** | `44` |
+| **Suspicious** | `28` |
 | **Third-party Aggregator** | `10` |
 
 ---
@@ -39,8 +39,8 @@
 
 | Type | Count |
 | :--- | :--- |
-| **Unknown** | `43` |
-| **Remote** | `30` |
+| **Unknown** | `47` |
+| **Remote** | `31` |
 | **Onsite** | `4` |
 
 ---
@@ -49,6 +49,11 @@
 
 | Job Title | Company | Location | Source | Application Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **Embedded Software Engineer Remote** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/r/embedded-software-engineer) |
+| **AI Engineer (Azure)** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5133358-ai-engineer-azure) |
+| **Full Stack Software Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4677820-full-stack-net-developer) |
+| **Software Engineer (India Only)** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5105633-software-engineer-india-only) |
+| **Junior Software Engineer ( Fresher India Only)** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5133192-junior-software-engineer-fresher-india-only) |
 | **Voice AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4824688-voice-ai-engineer) |
 | **Full Stack AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5105659-full-stack-ai-engineer) |
 | **AI Engineer, Enterprise AI Development – Chennai** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5086190-ai-engineer-enterprise-ai-development-chennai) |
@@ -64,8 +69,3 @@
 | **Systems AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4901518-systems-ai-engineer) |
 | **Founding AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/4872307-founding-ai-engineer) |
 | **AI Engineer** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/jobs/5062654-ai-engineer) |
-| **Software Engineer Jobs in Los Angeles** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/los-angeles) |
-| **Software Engineer Jobs in New York City** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/new-york) |
-| **Software Engineer Jobs in San Francisco** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/l/software-engineer/san-francisco) |
-| **Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/software-engineer) |
-| **Remote Software Engineer Jobs** | Indian AI / Tech Startup | India | Wellfound | [Apply Here](https://wellfound.com/role/r/software-engineer) |
